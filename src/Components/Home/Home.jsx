@@ -16,13 +16,13 @@ const Home = () => {
 				transition: { duration: 1 },
 			}}
 		>
-			<div className="grid 2xl:grid-cols-2 xl:xl:grid-cols-2 lg:xl:grid-cols-2">
+			<div className="grid 2xl:grid-cols-2 xl:xl:grid-cols-2 lg:xl:grid-cols-2 gap-5">
 				<div>
 					<div>
-						<h1 className="text-3xl font-bold leading-loose animate__animated animate__bounceInLeft">
+						<h1 className="text-3xl font-bold leading-tight animate__animated animate__bounceInLeft">
 							Hello, <span className="text-primary">I'm</span>
 						</h1>
-						<h1 className="text-6xl font-extrabold mt-8 mb-2 animate__animated animate__bounceInLeft animate__delay-1s">
+						<h1 className="2xl:text-[62px] xl:text-[62px] lg:text-[62px] md:text-[62px] text-[52px] font-extrabold mt-8 mb-2 leading-none pb-3 animate__animated animate__bounceInLeft animate__delay-1s">
 							Muhammad Asif
 						</h1>
 						<h1 className="text-4xl landing-relaxed animate__animated animate__bounceInLeft animate__delay-2s">
@@ -96,7 +96,10 @@ const Home = () => {
 						<div name="count" className="mt-16 flex gap-x-6">
 							<VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
 								{({ isVisible }) => (
-									<div className="text-4xl" style={{ height: 100 }}>
+									<div
+										className="2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl text-2xl"
+										style={{ height: 100 }}
+									>
 										{isVisible ? <CountUp end={1} /> : null} +
 										<h1 className="text-sm mt-3">Year of experience</h1>
 									</div>
@@ -104,7 +107,10 @@ const Home = () => {
 							</VisibilitySensor>
 							<VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
 								{({ isVisible }) => (
-									<div className="text-4xl" style={{ height: 100 }}>
+									<div
+										className="2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl text-2xl"
+										style={{ height: 100 }}
+									>
 										{isVisible ? <CountUp end={85} /> : null} %
 										<h1 className="text-sm mt-3">Web Development</h1>
 									</div>
@@ -112,7 +118,10 @@ const Home = () => {
 							</VisibilitySensor>
 							<VisibilitySensor partialVisibility offset={{ bottom: 100 }}>
 								{({ isVisible }) => (
-									<div className="text-4xl" style={{ height: 100 }}>
+									<div
+										className="2xl:text-4xl xl:text-4xl lg:text-4xl md:text-4xl text-2xl"
+										style={{ height: 100 }}
+									>
 										{isVisible ? <CountUp end={90} /> : null} %
 										<h1 className="text-sm mt-3">Web Design</h1>
 									</div>
@@ -122,7 +131,7 @@ const Home = () => {
 					</div>
 				</div>
 				<div>
-					<img className="w-10/12 mx-auto" src={bannerImage} alt="" />
+					<img className="w-10/12 mx-auto my-auto" src={bannerImage} alt="" />
 				</div>
 			</div>
 		</motion.div>

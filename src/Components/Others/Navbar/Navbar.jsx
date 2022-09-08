@@ -28,7 +28,7 @@ const Navbar = () => {
 						onClick={menuChangeButton}
 					>
 						<Icon
-							className="hover:text-text ease-in duration-300 w-5 h-5"
+							className="hover:text-primary ease-in-out duration-300 w-6 h-6"
 							icon="akar-icons:circle-x-fill"
 						/>
 					</button>
@@ -38,7 +38,7 @@ const Navbar = () => {
 						onClick={menuChangeButton}
 					>
 						<Icon
-							className="hover:text-text ease-in duration-300 w-8 h-10"
+							className="hover:text-primary w-8 h-10"
 							icon="ci:menu-alt-05"
 						/>
 					</button>

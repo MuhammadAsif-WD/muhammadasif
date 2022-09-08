@@ -11,10 +11,10 @@ const Skills = () => {
 				transition: { duration: 1 },
 			}}
 		>
-			<div>
+			<div className="-mt-10">
 				<div className="grid 2xl:grid-cols-2 xl:xl:grid-cols-2 lg:xl:grid-cols-2 gap-20 py-10">
-					<div>
-						<h1 className="text-[72px] font_style font-bold leading-none mb-10 text-[#08fdd8]">
+					<div className="animate__animated animate__fadeInLeft animate__delay-1s">
+						<h1 className="2xl:text-[72px] xl:text-[72px] lg:text-[72px] md:text-[72px] text-[62px] font_style font-bold leading-none mb-10 text-[#08fdd8]">
 							Skills & <br />
 							Experience
 						</h1>
@@ -57,42 +57,71 @@ const Skills = () => {
 							</p>
 						</div>
 					</div>
-					<div className="mt-10 flex flex-col gap-8">
-						<div className="text-xl font_style flex flex-col">
-							<h1 className="pb-2 font-bold">Front-end</h1>
-							<ProgressBar
-								completed={90}
-								bgColor="#02c7b0"
-								height="3px"
-								customLabel=" "
-							/>
+
+					<div>
+						{/* use react npm Progress bar */}
+
+						<div className="mt-2 flex flex-col gap-6 animate__animated animate__fadeInRight animate__delay-1s">
+							<div className="text-xl font_style flex flex-col">
+								<h1 className="pb-2 font-bold">Front-end</h1>
+								<ProgressBar
+									completed={90}
+									bgColor="#02c7b0"
+									height="3px"
+									customLabel=" "
+								/>
+							</div>
+							<div className="text-xl font_style flex flex-col">
+								<h1 className="pb-2 font-bold">Back-end</h1>
+								<ProgressBar
+									completed={80}
+									bgColor="#ff2253"
+									height="3px"
+									customLabel=" "
+								/>
+							</div>
+							<div className="text-xl font_style flex flex-col">
+								<h1 className="pb-2 font-bold">React JS</h1>
+								<ProgressBar
+									completed={88}
+									bgColor="#d26cd5"
+									height="3px"
+									customLabel=" "
+								/>
+							</div>
+							<div className="text-xl font_style flex flex-col">
+								<h1 className="pb-2 font-bold">Full-stack</h1>
+								<ProgressBar
+									completed={70}
+									bgColor="#02c7b0"
+									height="3px"
+									customLabel=" "
+								/>
+							</div>
 						</div>
-						<div className="text-xl font_style flex flex-col">
-							<h1 className="pb-2 font-bold">Back-end</h1>
-							<ProgressBar
-								completed={80}
-								bgColor="#ff2253"
-								height="3px"
-								customLabel=" "
-							/>
-						</div>
-						<div className="text-xl font_style flex flex-col">
-							<h1 className="pb-2 font-bold">React JS</h1>
-							<ProgressBar
-								completed={88}
-								bgColor="#d26cd5"
-								height="3px"
-								customLabel=" "
-							/>
-						</div>
-						<div className="text-xl font_style flex flex-col">
-							<h1 className="pb-2 font-bold">Full-stack</h1>
-							<ProgressBar
-								completed={70}
-								bgColor="#02c7b0"
-								height="3px"
-								customLabel=" "
-							/>
+						<div className="mt-16 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5">
+							<div className="bg-black p-3 animate__animated animate__fadeInLeft animate__delay-1s">
+								<h1 className="text-2xl font-bold">Frontend developer</h1>
+								<div className="text-[#b3aca2] pt-3">
+									<p>To The End</p>
+									<small>2017-2018</small>
+									<p className="pt-3">
+										Award-winning Content Marketing Agency specialises in
+										creating and sharing engaging content.
+									</p>
+								</div>
+							</div>
+							<div className="bg-black p-3 animate__animated animate__fadeInRight animate__delay-1s">
+								<h1 className="text-2xl font-bold">Full stack developer</h1>
+								<div className="text-[#b3aca2] pt-3">
+									<p>To The End</p>
+									<small>2018-2021</small>
+									<p className="pt-3">
+										Creative brand, website design and development studio that
+										can bring your online business dreams to life
+									</p>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
