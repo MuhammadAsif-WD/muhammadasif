@@ -3,32 +3,42 @@
 @tailwind utilities;
 
 body {
-  background-color: #23262b;
-  font-family: "Montserrat";
-  color: #ffffff;
-  width: 90%;
-  margin: 0 auto;
-  padding-top: 3%;
+	background-color: #23262b;
+	font-family: 'Montserrat';
+	color: #ffffff;
+	width: 90%;
+	margin: 0 auto;
+	padding-top: 3%;
+	overflow: hidden;
+	overflow-y: scroll;
 }
 
 .activeLink {
-  color: #f00850;
-  font-size: 14px;
-  font-weight: bolder;
+	color: #f00850;
+	font-size: 14px;
+	font-weight: bolder;
 }
 
 .notActiveLink {
-  color: #ffffff;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in;
+	color: #ffffff;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
 }
 .notActiveLink:hover {
-  color: #f00850;
-  font-weight: bolder;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in;
+	color: #f00850;
+	font-weight: bolder;
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in;
 }
 .desk_nav_button {
-  margin-left: 75px;
-  margin-top: 5px;
+	margin-left: 75px;
+	margin-top: 5px;
+}
+.bg_nav_color {
+	background: #23262b;
+}
+
+/* Font style */
+.font_style {
+	font-family: Arial, Helvetica, sans-serif;
 }
