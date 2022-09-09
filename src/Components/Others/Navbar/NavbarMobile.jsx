@@ -31,16 +31,6 @@ const NavbarMobile = () => {
 						className={({ isActive }) =>
 							isActive ? 'activeLink' : 'notActiveLink'
 						}
-						to="services"
-					>
-						Services
-					</NavLink>
-				</li>
-				<li className="mt-5 animate__animated animate__slideInRight">
-					<NavLink
-						className={({ isActive }) =>
-							isActive ? 'activeLink' : 'notActiveLink'
-						}
 						to="projects"
 					>
 						Projects

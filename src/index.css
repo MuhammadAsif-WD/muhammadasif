@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Body */
 body {
 	background-color: #23262b;
 	font-family: 'Montserrat';
@@ -12,24 +13,28 @@ body {
 	overflow: hidden;
 	overflow-y: scroll;
 }
-
+/* Navbar Style Start */
+/* Navbar Active Link Style */
 .activeLink {
 	color: #f00850;
 	font-size: 14px;
 	font-weight: bolder;
 }
-
+/* Navbar not active link style */
 .notActiveLink {
 	color: #ffffff;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in;
 }
+/* Nav Link Hover style */
 .notActiveLink:hover {
 	color: #f00850;
 	font-weight: bolder;
 	transition-duration: 0.5s;
 	transition-timing-function: ease-in;
 }
+
+/* Navbar Button */
 .desk_nav_button {
 	margin-left: 75px;
 	margin-top: 5px;
@@ -37,8 +42,44 @@ body {
 .bg_nav_color {
 	background: #23262b;
 }
+/* Navbar Style END */
 
 /* Font style */
 .font_style {
 	font-family: Arial, Helvetica, sans-serif;
+}
+
+/* start */
+/* Projects Section Card Box Style */
+.container .box {
+	border-radius: 5px;
+	background-position: top;
+	transition: ease-in-out 5s;
+}
+
+.container .box:hover {
+	background-position: bottom;
+}
+.container .box.box_one {
+	background-image: url(./Components/Assets/svg/g_store.svg);
+	background-size: cover;
+}
+.container .box.box_two {
+	background-image: url(./Components/Assets/svg/g_store.svg);
+	background-size: cover;
+}
+/* end projects card box style */
+
+/* Contact CSS Start */
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+	-moz-appearance: textfield;
 }

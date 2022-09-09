@@ -5,7 +5,7 @@ import Navbar from './Components/Others/Navbar/Navbar'
 
 function App() {
 	return (
-		<div className="duration-500 ease-in-out">
+		<div>
 			<Navbar />
 			<AnimatedRoutes />
 		</div>

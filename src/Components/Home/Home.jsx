@@ -131,7 +131,11 @@ const Home = () => {
 					</div>
 				</div>
 				<div>
-					<img className="w-10/12 mx-auto my-auto" src={bannerImage} alt="" />
+					<img
+						className="w-10/12 mx-auto my-auto animate__animated animate__fadeInRight animate__delay-1s"
+						src={bannerImage}
+						alt=""
+					/>
 				</div>
 			</div>
 		</motion.div>

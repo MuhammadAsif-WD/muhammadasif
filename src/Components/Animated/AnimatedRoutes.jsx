@@ -5,7 +5,6 @@ import Blogs from '../Blogs/Blogs'
 import Contact from '../Contact/Contact'
 import Home from '../Home/Home'
 import Projects from '../Projects/Projects'
-import Services from '../Services/Services'
 import Skills from '../Skills/Skills'
 
 const AnimatedRoutes = () => {
@@ -17,7 +16,6 @@ const AnimatedRoutes = () => {
 					<Route path="/" element={<Home />} />
 					<Route path="home" element={<Home />} />
 					<Route path="skills" element={<Skills />} />
-					<Route path="services" element={<Services />} />
 					<Route path="projects" element={<Projects />} />
 					<Route path="contact" element={<Contact />} />
 					<Route path="blogs" element={<Blogs />} />

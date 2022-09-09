@@ -37,10 +37,7 @@ const Navbar = () => {
 						className="text-sm mt-[10px] uppercase 2xl:hidden xl:hidden lg:hidden block"
 						onClick={menuChangeButton}
 					>
-						<Icon
-							className="hover:text-primary w-8 h-10"
-							icon="ci:menu-alt-05"
-						/>
+						<Icon className="hover:text-primary w-8 h-10" icon="gg:menu" />
 					</button>
 				)}
 			</section>
