@@ -26,7 +26,15 @@ const Home = () => {
 							Muhammad Asif
 						</h1>
 						<h1 className="text-4xl landing-relaxed animate__animated animate__bounceInLeft animate__delay-2s">
-							<ReactRotatingText items={['Web Designer', 'Web Developer']} />
+							<ReactRotatingText
+								items={[
+									'Web Designer',
+									'Front-end Developer',
+									'Back-end Developer',
+									'React-JS Developer',
+									'Full-stack Developer',
+								]}
+							/>
 						</h1>
 						<div className="leading-relaxed flex flex-col gap-y-5 mt-10 animate__animated animate__bounceInLeft animate__delay-3s">
 							<p>

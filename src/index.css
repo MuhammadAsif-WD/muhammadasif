@@ -60,15 +60,10 @@ body {
 .container .box:hover {
 	background-position: bottom;
 }
-.container .box.box_one {
-	background-image: url(./Components/Assets/svg/g_store.svg);
-	background-size: cover;
+
+.box_shadow {
+	box-shadow: rgba(0, 0, 0, 0.281) 0px 6px 30px 2px;
 }
-.container .box.box_two {
-	background-image: url(./Components/Assets/svg/g_store.svg);
-	background-size: cover;
-}
-/* end projects card box style */
 
 /* Contact CSS Start */
 

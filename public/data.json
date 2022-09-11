@@ -1,0 +1,56 @@
+[
+	{
+		"name": "G-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	},
+	{
+		"name": "A-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	},
+	{
+		"name": "B-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	},
+	{
+		"name": "V-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	},
+	{
+		"name": "E-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	},
+	{
+		"name": "H-Store",
+		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
+		"skills": "web development",
+		"details": "",
+		"client": "",
+		"server": "",
+		"live": ""
+	}
+]
