@@ -18,7 +18,7 @@ const Navbar = () => {
 				<NavLink to="/">
 					<div className="flex gap-x-3 justify-start font-bold text-3xl uppercase animate__animated animate__fadeInLeft">
 						<img className="w-8" src={logo} alt="" />
-						<h1 className="pt-2">Asif</h1>
+						<h1 className="pt-2 -ml-2">sif</h1>
 					</div>
 				</NavLink>
 

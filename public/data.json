@@ -3,126 +3,36 @@
 		"name": "G-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
 		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	},
 	{
 		"name": "A-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
-		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"skills": "Full Stack development",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	},
 	{
 		"name": "B-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
-		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"skills": "Frontend development",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	},
 	{
 		"name": "V-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
-		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"skills": "Full Stack development",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	},
 	{
 		"name": "E-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
 		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	},
 	{
 		"name": "H-Store",
 		"img": "https://i.ibb.co/SdJB6Jg/g-store.png",
-		"skills": "web development",
-		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?",
-		"client": "https://github.com/MuhammadOAsif/Goodies-Client",
-		"server": "https://github.com/MuhammadOAsif/Goodies-Server",
-		"live": "https://g-store-asif.web.app/",
-		"backend": [
-			"NodeJS",
-			"Express JS",
-			"axios",
-			"mongodb"
-		],
-		"frontend": [
-			"React JS",
-			"React Router",
-			"Firebase",
-			"React packages"
-		]
+		"skills": "Frontend development",
+		"details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel eos facilis alias sapiente exercitationem. Recusandae quisquam alias autem excepturi, ex voluptatem quas quo non ullam consectetur facilis esse nulla deserunt?"
 	}
 ]
