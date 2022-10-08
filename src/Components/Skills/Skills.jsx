@@ -101,46 +101,53 @@ const Skills = () => {
 						</section>
 
 						<div className="mt-16 grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-5">
-							<div className="bg-black p-3 animate__animated animate__fadeInLeft animate__delay-1s">
-								<h1 className="text-2xl font-bold">Frontend developer</h1>
-								<div className="text-[#b3aca2] pt-3">
-									<p>To The End</p>
-									<small>2020-2021</small>
-									<ul className="pt-3 list-disc p-5 flex flex-col gap-y-2">
-										<li>
-											We design websites by converting all types of websites
-											from
-										</li>
-										<li>
-											Figma, PSD, JPEG, and png files. All types of websites are
-										</li>
-										<li>
-											made with React. Besides, HTML, CSS, and JS are also done
-											if
-										</li>
-										<li>
-											someone wants. tailwind is my main framework and if anyone
-											wants to do it with bootstrap then that can be done too.
-										</li>
-									</ul>
+							<div className="animated__box p-[2px]">
+								<div className="bg-black p-3 animate__animated animate__fadeInLeft animate__delay-1s z-[2] relative rounded-[12px]">
+									<h1 className="text-2xl font-bold">Frontend developer</h1>
+									<div className="text-[#b3aca2] pt-3">
+										<p>To The End</p>
+										<small>2020-2021</small>
+										<ul className="pt-3 list-disc p-5 flex flex-col gap-y-2">
+											<li>
+												We design websites by converting all types of websites
+												from
+											</li>
+											<li>
+												Figma, PSD, JPEG, and png files. All types of websites
+												are
+											</li>
+											<li>
+												made with React. Besides, HTML, CSS, and JS are also
+												done if
+											</li>
+											<li>
+												someone wants. tailwind is my main framework and if
+												anyone wants to do it with bootstrap then that can be
+												done too.
+											</li>
+										</ul>
+									</div>
 								</div>
 							</div>
-							<div className="bg-black p-3 animate__animated animate__fadeInRight animate__delay-1s">
-								<h1 className="text-2xl font-bold">Full stack developer</h1>
-								<div className="text-[#b3aca2] pt-3">
-									<p>To The End</p>
-									<small>2021-2022</small>
-									<ul className="pt-3 list-disc p-5 flex flex-col gap-y-2">
-										<li>
-											I use node js as the backend And use the MongoDB database.
-										</li>
-										<li>
-											Experienced in creating a school website, doctor website,
-											e-commerce website, warehouse website, manufacturing
-											website, and many more websites.
-										</li>
-										<li>Also, have experience in creating an admin panel.</li>
-									</ul>
+							<div className="animated__box p-[2px]">
+								<div className="bg-black p-4 animate__animated animate__fadeInRight animate__delay-1s rounded-[12px] z-[2] relative">
+									<h1 className="text-2xl font-bold">Full stack developer</h1>
+									<div className="text-[#b3aca2] pt-3">
+										<p>To The End</p>
+										<small>2021-2022</small>
+										<ul className="pt-3 list-disc p-5 flex flex-col gap-y-2">
+											<li>
+												I use node js as the backend And use the MongoDB
+												database.
+											</li>
+											<li>
+												Experienced in creating a school website, doctor
+												website, e-commerce website, warehouse website,
+												manufacturing website, and many more websites.
+											</li>
+											<li>Also, have experience in creating an admin panel.</li>
+										</ul>
+									</div>
 								</div>
 							</div>
 						</div>

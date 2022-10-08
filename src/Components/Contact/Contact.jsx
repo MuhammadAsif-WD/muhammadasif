@@ -129,87 +129,86 @@ const Contact = () => {
 						</div>
 					</div>
 					<div
-						className="
+						className="animated__box__red 
 					2xl:w-[65vw] xl:w-[60vw] lg:w-[50vw] md:w-full
-					
-					2xl:-ml-[18vw] xl:-ml-[14vw] lg:-ml-[5vw]
-					
-					rounded-xl shadow-xl bg-black flex flex-col 2xl:mt-0 xl:mt-0 
-					
-					lg:mt-0 mt-10 pb-10
-					
-					animate__animated animate__zoomIn animate__delay-1s
-					"
+					2xl:-ml-[18vw] xl:-ml-[14vw] lg:-ml-[5vw] 2xl:mt-0 xl:mt-0 
+					lg:mt-0 p-[5px]"
 					>
-						<form action="" onSubmit={sendMail}>
-							<div className="grid grid-cols-2 mx-auto 2xl:gap-10 xl:gap-10 lg:gap-10 md:gap-10 sm:gap-10 gap-5 pt-16 p-10">
-								<input
-									type="text"
-									name="text"
-									id="1"
-									placeholder="Your Name"
-									required="true"
-									value={sender_name}
-									onChange={handleNameChange}
-									className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
-								/>
-								<input
-									type="number"
-									number="text"
-									id="1"
-									placeholder="Your Phone"
-									required="true"
-									value={sender_phone}
-									onChange={handlePhoneChange}
-									className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
-								/>
-								<input
-									type="mail"
-									number="text"
-									id="1"
-									placeholder="Your G-mail"
-									required="true"
-									onChange={handleEmailChange}
-									value={sender_email}
-									className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
-								/>
-								<input
-									type="text"
-									number="text"
-									id="1"
-									placeholder="Your Subject"
-									required="true"
-									onChange={handleSubjectChange}
-									value={sender_subject}
-									className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
-								/>
-							</div>
-							<textarea
-								name="message"
-								id="message"
-								cols="40"
-								rows="6"
-								placeholder="Your Message"
-								value={sender_message}
-								onChange={handleMessageChange}
-								className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary 2xl:w-[54vw] xl:w-[54vw] lg:w-[45vw] md:w-[80vw] w-[70vw] mx-auto block"
-							></textarea>
+						<div
+							className="bg-black flex flex-col 
+					animate__animated animate__zoomIn animate__delay-1s
+					relative z-[2] rounded-xl shadow-xl pb-10"
+						>
+							<form action="" onSubmit={sendMail}>
+								<div className="grid grid-cols-2 mx-auto 2xl:gap-10 xl:gap-10 lg:gap-10 md:gap-10 sm:gap-10 gap-5 pt-16 p-10">
+									<input
+										type="text"
+										name="text"
+										id="1"
+										placeholder="Your Name"
+										required="true"
+										value={sender_name}
+										onChange={handleNameChange}
+										className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
+									/>
+									<input
+										type="number"
+										number="text"
+										id="1"
+										placeholder="Your Phone"
+										required="true"
+										value={sender_phone}
+										onChange={handlePhoneChange}
+										className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
+									/>
+									<input
+										type="mail"
+										number="text"
+										id="1"
+										placeholder="Your G-mail"
+										required="true"
+										onChange={handleEmailChange}
+										value={sender_email}
+										className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
+									/>
+									<input
+										type="text"
+										number="text"
+										id="1"
+										placeholder="Your Subject"
+										required="true"
+										onChange={handleSubjectChange}
+										value={sender_subject}
+										className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary"
+									/>
+								</div>
+								<textarea
+									name="message"
+									id="message"
+									cols="40"
+									rows="6"
+									placeholder="Your Message"
+									value={sender_message}
+									onChange={handleMessageChange}
+									className="outline-none rounded-md p-3 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm text-xs bg-black border border-primary 2xl:w-[54vw] xl:w-[54vw] lg:w-[45vw] md:w-[80vw] w-[70vw] mx-auto block"
+								></textarea>
 
-							<input
-								type="submit"
-								value="Send Message"
-								className="
+								<input
+									type="submit"
+									value="Send Message"
+									className="
 								2xl:w-96 xl:w-96 lg:w-96 md:w-96 sm:w-96 w-64 mx-auto block 2xl:mt-10 xl:mt-10 lg:mt-10 md:mt-10 sm:mt-5 mt-5 
 								border border-primary
 								hover:bg-primary rounded-md p-3
 								ease-in-out duration-500 cursor-pointer"
-							/>
-							<Icon
-								className="
+								/>
+								<Icon
+									className="
 								w-5 h-5 mx-auto -mt-9 2xl:ml-[35vw] xl:ml-[35vw] lg:ml-[31vw] md:ml-[52vw] sm:ml-[54vw] ml-[63vw]"
-								icon="mingcute:send-plane-line"
-							/>
-						</form>
+									icon="mingcute:send-plane-line"
+								/>
+							</form>
+						</div>
 					</div>
 				</div>
 				<Toaster />

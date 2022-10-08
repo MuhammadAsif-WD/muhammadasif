@@ -10,15 +10,15 @@ const ProjectsDetails = ({ work }) => {
 
 	const { img, name, _id, skills } = work
 	return (
-		<div>
-			<div className="animate__animated animate__fadeInLeft animate__delay-1s">
-				<div className=" box_shadow p-8 rounded-xl bg-[#212428]">
+		<div className="animated__box">
+			<div className="animate__animated animate__fadeInLeft animate__delay-1s z-[2] relative p-[2px]">
+				<div className="box_shadow p-6 rounded-xl bg-[#212428]">
 					<div
 						style={{
 							backgroundImage: `url(${img})`,
 							backgroundSize: 'cover',
 						}}
-						className="box box_one w-full h-80 mx-auto"
+						className="box box_one w-full h-72 mx-auto"
 					></div>
 
 					<div className="flex">
@@ -26,14 +26,14 @@ const ProjectsDetails = ({ work }) => {
 							onClick={() => navigateToDetails(_id)}
 							className="rounded-md mt-5 font-bold 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm  duration-700 ease-in-out hover:text-primary"
 						>
-							<div className="flex cursor-pointer font-bold 2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm duration-700 ease-in-out hover:text-primary">
+							<div className="flex cursor-pointer font-bold 2xl:text-xl xl:text-lg lg:text-md md:text-sm sm:text-xs duration-700 ease-in-out hover:text-primary">
 								{name}
 								<Icon className="ml-2 mt-1" icon="charm:arrow-up-right" />
 							</div>
 						</button>
 						<div>
 							<p className="2xl:text-2xl xl:text-xl lg:text-lg md:text-md sm:text-sm mt-6 ml-10 text-primary font-thin">
-								{skills} web development
+								{skills}
 							</p>
 						</div>
 					</div>
