@@ -6,7 +6,7 @@ const Projects = () => {
 	const [works, setWorks] = useState([])
 
 	useEffect(() => {
-		const url = 'http://localhost:5000/data'
+		const url = 'https://muhammadasifserver.vercel.app/data'
 		fetch(url)
 			.then(res => res.json())
 			.then(data => setWorks(data))

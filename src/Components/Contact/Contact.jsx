@@ -129,10 +129,10 @@ const Contact = () => {
 						</div>
 					</div>
 					<div
-						className="animated__box__red 
+						className="mt-10 animated__box__red 
 					2xl:w-[65vw] xl:w-[60vw] lg:w-[50vw] md:w-full
 					2xl:-ml-[18vw] xl:-ml-[14vw] lg:-ml-[5vw] 2xl:mt-0 xl:mt-0 
-					lg:mt-0 p-[5px]"
+					lg:mt-0 p-[6px]"
 					>
 						<div
 							className="bg-black flex flex-col 

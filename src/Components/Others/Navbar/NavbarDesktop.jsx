@@ -11,7 +11,7 @@ const NavbarDesktop = () => {
 						className={({ isActive }) =>
 							isActive ? 'activeLink' : 'notActiveLink'
 						}
-						to="home"
+						to="/"
 					>
 						Home
 					</NavLink>

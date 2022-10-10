@@ -58,7 +58,7 @@ body {
 .container .box {
 	border-radius: 5px;
 	background-position: top;
-	transition: ease-in-out 5s;
+	transition: ease-in-out 3s;
 }
 
 .container .box:hover {
@@ -271,4 +271,65 @@ input[type='number'] {
 	background: #45f3ff;
 	rotate: -45deg;
 	transition-delay: 1.5s;
+}
+
+.mymodal {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	z-index: 1 !important;
+	background: #191e23bd;
+	overflow-y: scroll;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	outline: none;
+	padding: 48px;
+}
+
+.myoverlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+	opacity: 0;
+	transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+	opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+	opacity: 0;
+}
+
+.z_index {
+	z-index: -1 !important;
+}
+
+/* width */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 5px grey;
+	border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #23262b;
+	border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #191e23;
 }
